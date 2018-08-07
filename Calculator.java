@@ -6,9 +6,14 @@ public class Calculator{
     itn a = 4;
     int b = 2;
     Systemp.out.println(sum(a,b));
+    Systemp.out.println(minus(a,b));
   }
 
-  private static int sum(int a,int b){
+  private static int sum(int a, int b){
     return a+b;
+  }
+
+  private static int minus(int a, int b){
+    return a-b;
   }
 }
